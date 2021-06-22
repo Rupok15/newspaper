@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+a{
+	text-decoration: none;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color: orange;
+}
+.main-post{
+	width: 100%;
+	display: flow-root;
+
+}
+.desc{
+	padding: 70px;
+}
+.desc h4{
+ font-family: 'Ubuntu', sans-serif;
+ text-transform: uppercase;
+ color: #626262;
+}
+.desc h1{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 30px;
+	font-weight: 400px;
+	margin: 20px 0px;
+}
+.desc p{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+	font-weight: 400px;
+
+}
+.desc span{
+font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-weight: 400px;
+}
+.post{
+	display: flow-root;
+	width: 100%;
+}
+.gallery{
+	width: 100%;
+	float: left;
+	padding: 70px;
+}
+.left{
+	width: 45%;
+	float: left;
+}
+.right{
+	width: 45%;
+	float: right;
+}
+.left h4,.right h4{
+ font-family: 'Ubuntu', sans-serif;
+ text-transform: uppercase;
+ color: #626262;
+ margin-top: 20px;
+ font-weight: 300;
+}
+.left h1, .right h1{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 30px;
+	font-weight: 400px;
+	margin: 20px 0px;
+}
+.left p, .right p{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+	font-weight: 400px;
+}
+.newsletter{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 60px 0px;
+}
+.subscribe{
+	text-align: center;
+}
+.subscribe h1{
+font-family: 'Playfair Display', serif;
+	margin-bottom: 20px;
+}
+.subscribe input{
+width: 30%;
+padding: 15px 0px;
+border: none;
+background-color: transparent;
+border-bottom: 2px solid black;
+}
+.subscribe input::placeholder{
+	font-family: 'Playfair Display', serif;
+	color: #9b9b9b;
+}
+.subscribe input:focus{
+	outline: none;
+	border-bottom-color: pink;
+}
